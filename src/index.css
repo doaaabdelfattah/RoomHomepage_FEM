@@ -155,23 +155,27 @@ a:active {
 }
 
 .slide__text {
-  padding: 120px 100px;
-  padding: min(7.5rem, 10%);
-  @media only screen and (max-width: 1500px) {
+  /* padding: min(7.5rem, 10%); */
+  padding: 3.7rem;
+}
+
+/* Media Queries must be outside */
+/* @media only screen and (max-width: 1500px) {
+  .slide__text {
     padding: 5rem;
   }
-  @media only screen and (max-width: 1330px) {
+}
+
+@media only screen and (max-width: 1330px) {
+  .slide__text {
     padding: 4rem;
   }
-  @media only screen and (max-width: 1200px) {
-    padding: 3.5rem;
+} */
+
+@media only screen and (max-width: 1200px) {
+  .slide__text {
+    padding: 2.7rem;
   }
-  /* display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding: 0 5rem;
-  height: fit-content; */
 }
 
 .slide__text h1 {

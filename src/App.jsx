@@ -17,7 +17,7 @@ function App() {
         <header className="hero">
           {/* [1] Navigation bar */}
           <div className={`nav__mobile ${openMenu ? "show" : "hide"}`}>
-            <img onClick={showMenu} src="public/icon-close.svg" />
+            <img onClick={showMenu} src="/icon-close.svg" />
             <ul>
               <li>
                 <a href="#">Home</a>
