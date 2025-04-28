@@ -17,7 +17,7 @@ function App() {
         <header className="hero">
           {/* [1] Navigation bar */}
           <div className={`nav__mobile ${openMenu ? "show" : "hide"}`}>
-            <img onClick={showMenu} src="/icon-close.svg" />
+            <img onClick={showMenu} src="/icon-close.svg" alt="" />
             <ul>
               <li>
                 <a href="#">Home</a>
@@ -39,6 +39,7 @@ function App() {
               onClick={showMenu}
               className="burger__icon"
               src="/icon-hamburger.svg"
+              alt=""
             />
             <div className="logo__container">
               <img className="logo" src="/logo.svg" alt="logo" />
@@ -63,7 +64,7 @@ function App() {
         </header>
         <section className="about">
           <div className="about__image">
-            <img src="/image-about-dark.jpg" />
+            <img src="/image-about-dark.jpg" alt="about-dark" />
           </div>
           <div className="about__text">
             <h2 className="about__title"> About our furniture</h2>
@@ -77,7 +78,7 @@ function App() {
             </p>
           </div>
           <div className="about__image">
-            <img src="/image-about-light.jpg" />
+            <img src="/image-about-light.jpg" alt="about-light" />
           </div>
         </section>
       </main>
